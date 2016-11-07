@@ -12,6 +12,7 @@ stages:
 build_docker_image:latest:
   stage: build
 #  only:
+
     - master
   script:
     - gradle bootRepackage
